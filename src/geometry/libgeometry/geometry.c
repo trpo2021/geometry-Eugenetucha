@@ -1,5 +1,5 @@
-  
-#include "libgeometry/geometry.h"
+﻿  
+#include "/home/yevgeniy/geometry-Eugenetucha/src/geometry/libgeometry/geometry.h"
 
 #include <assert.h>
 #include <math.h>
@@ -11,7 +11,15 @@ char* Calculations (double x,double y,double r,double perimeter,double area)
 	{
 	    area = 3,14*pow(r,2);
 		perimeter = 2 * 3,14 * r;
+      if(area<=0){
+         return 0;}
+            else {
+	return 1;}
+              if(perimeter<=0){
+         return 0;}
 	}
+      else {
+	return 1;}
 	
 	char* proverka_symv(char* point, char symbol)
 	{
