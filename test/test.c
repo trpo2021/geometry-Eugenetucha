@@ -12,8 +12,8 @@ CTEST(proverka_kruga,point){
 }
 CTEST(calculations,znach){
 	double r=3;
-	area = 3,14*pow(r,2);
-	perimeter = 2 * 3,14 * r;
+	area=-3;
+	perimeter=-4;
 	int testExp = 1;
 	int testResult = Calculations(x,y,r,perimeter,area);
 	ASSERT_EQUAL(testExp, testResult);
