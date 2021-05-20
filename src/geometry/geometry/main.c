@@ -1,9 +1,9 @@
 #include <ctype.h>
 #include <libgeometry/geometry.h>
 #include <math.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <stdio.h>
 
 
 int main()
