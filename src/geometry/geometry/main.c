@@ -1,8 +1,8 @@
 #include <ctype.h>
 #include <libgeometry/geometry.h>
 #include <math.h>
-#include <string.h>
 #include <stdlib.h>
+#include <string.h>
 #include <stdio.h>
 
 
