@@ -5,11 +5,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-struct circle_elements {
-    double x;
-    double y;
-    double r;
-} circle;
 char* Calculations(double r)
 {
     int area = 3.14 * pow(r, 2);
