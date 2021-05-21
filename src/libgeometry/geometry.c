@@ -31,9 +31,9 @@ char* proverka_symv(char* point, char symbol)
         } else {
             printf("Excepted '%c'\n", symbol);
             return 0;
-            
-        }
-    }        
+        }    
+    }    
+                
     return point;
 }
 
