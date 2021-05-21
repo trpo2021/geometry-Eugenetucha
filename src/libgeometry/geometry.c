@@ -9,9 +9,13 @@ char* Calculations(double r)
 {
     int area = 3.14 * pow(r, 2);
     int perimeter = 2 * 3.14 * r;
-    if (perimeter && area <= 0)
+    if (perimeter && area > 0){
+        printf("Perimeter,%f\n", perimeter);
+        printf("Area,%f\n", area);
+    }
+    if (perimeter && area <= 0){
         return 0;
-}
+    }
 char* proverka_symv(char* point, char symbol)
 {
     while (*point != '\n') {
