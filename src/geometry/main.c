@@ -32,6 +32,5 @@ int main()
     } else {
         printf("Excepted 'circle'\n");
     }
-    printf("Perimeter,%f\n", perimeter);
-    printf("Area,%f\n", area);
+    Calculations(double r);
 }
