@@ -65,40 +65,34 @@ int Calculations(double r)
                 return point;
             }
 
-            char* proverka_kruga(char* point)
-            {
-                if ((point = proverka_symv(point, '(')) == 0) {
-                    return 0;
-                }
-
-                if ((point = proverka_znach(point, &circle.x)) == 0) {
-                    return 0;
-                }
-                else{
-                    return point;
-                }
-                if ((point = proverka_znach(point, &circle.y)) == 0) {
-                    return 0;
-                }
-                else{
-                    return point;
-                }
-                if ((point = proverka_symv(point, ',')) == 0) {
-                    return 0;
-                }
-                else{
-                    return point;
-                }
-                if ((point = proverka_znach(point, &circle.r)) == 0) {
-                    return 0;
-                }
-                else{
-                    return point;
-                }
-                if ((point = proverka_symv(point, ')')) == 0) {
-                    return 0;
-                }
-                else{
-                    return point;
-                }   
-            }
+char* proverka_kruga(char* point)
+{
+    if ((point = proverka_symv(point, '(')) == 0) {
+        return 0;
+    }
+    if ((point = proverka_znach(point, &circle.x)) == 0) {
+        return 0;
+    } else {
+        return point;
+    }
+    if ((point = proverka_znach(point, &circle.y)) == 0) {
+        return 0;
+    } else {
+        return point;
+    }
+    if ((point = proverka_symv(point, ',')) == 0) {
+        return 0;
+    } else {
+        return point;
+    }
+    if ((point = proverka_znach(point, &circle.r)) == 0) {
+        return 0;
+    } else {
+        return point;
+    }
+    if ((point = proverka_symv(point, ')')) == 0) {
+        return 0;
+    } else {
+        return point;
+    }
+}
