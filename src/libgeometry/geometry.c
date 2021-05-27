@@ -24,7 +24,7 @@ int Calculations2(int r)
 }
 char* proverka_symv(char* point, char symbol)
 {
-    while (*point != '\n') {
+    
         if (*point == symbol) {
             point++;
             return point;
@@ -35,8 +35,6 @@ char* proverka_symv(char* point, char symbol)
             printf("Excepted '%c'\n", symbol);
             return 0;
         }
-    }
-    return 1;
 }
 
 char* proverka_znach(char* point, double* number)
