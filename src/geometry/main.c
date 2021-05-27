@@ -13,8 +13,6 @@ struct circle_elements {
 
 int main()
 {
-    double perimeter = 0;
-    double area = 0;
     char figure[100];
     char* test_point = figure;
     char* point = figure;
