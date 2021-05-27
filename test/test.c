@@ -10,12 +10,19 @@ CTEST(proverka_kruga, point)
     int testResult = proverka_kruga(point);
     ASSERT_EQUAL(testExp, testResult);
 }
-CTEST(calculations, znach)
+CTEST(calculations1, znach)
 {
     double r = 3;
     int area = -3;
-    int perimeter = -4;
     int testExp = 1;
-    int testResult = Calculations(r);
+    int testResult = Calculations1(r);
+    ASSERT_EQUAL(testExp, testResult);
+}
+CTEST(calculations2, znach)
+{
+    double r = 3;
+    double perimeter = -4;
+    int testExp = 1;
+    int testResult = Calculations2(r);
     ASSERT_EQUAL(testExp, testResult);
 }
