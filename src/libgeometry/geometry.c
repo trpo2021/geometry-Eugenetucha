@@ -12,12 +12,15 @@ struct circle_elements {
     double r;
 } circle;
 
-int Calculations(double r)
+int Calculations1(double r)
 {
     int area = 3.14 * pow(r, 2);
+    return area;
+}
+int Calculations2(double r)
+{
     int perimeter = 2 * 3.14 * r;
-    printf("%d,%d", area, perimeter);
-    return 1;
+    return perimeter;
 }
 char* proverka_symv(char* point, char symbol)
 {
@@ -33,8 +36,6 @@ char* proverka_symv(char* point, char symbol)
             return 0;
         }
     }
-         
-    return point;
 }
 
 char* proverka_znach(char* point, double* number)
@@ -63,7 +64,6 @@ char* proverka_znach(char* point, double* number)
         (printf("Use positive values"));
         return 0;
     }
-    return point;
 }
 char* proverka_kruga(char* point)
 {
