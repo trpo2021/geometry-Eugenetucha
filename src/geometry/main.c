@@ -31,6 +31,6 @@ int main()
     } else {
         printf("Excepted 'circle'\n");
     }
-    Calculations1(r);
+    Calculations1(double r);
     Calculations2(r);
 }
