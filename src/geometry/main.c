@@ -8,9 +8,9 @@
 int main()
 {
     struct circle_elements {
-    double x;
-    double y;
-    double r;
+        double x;
+        double y;
+        double r;
     } circle;
     char figure[100];
     char* test_point = figure;
