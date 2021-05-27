@@ -2,7 +2,7 @@ APP_NAME = geometry
 APP_NAME_TEST = test
 LIB_NAME = libgeometry
 
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -Wno-error
 CPPFLAGS = -I src -MP -MMD
 CPPFLAGS_TEST = -I thirdparty -I src -MP -MMD
 LDFLAGS =
