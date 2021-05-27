@@ -14,7 +14,7 @@ struct circle_elements {
 
 int Calculations1(double r)
 {
-    int area = 3.14 * pow(r, 2);
+    int area = 3.14 * r * r;
     return area;
 }
 int Calculations2(double r)
