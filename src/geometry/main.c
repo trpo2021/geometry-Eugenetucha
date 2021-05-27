@@ -5,13 +5,14 @@
 #include <stdlib.h>
 #include <string.h>
 
-int main()
-{
     struct circle_elements {
         double x;
         double y;
         double r;
     } circle;
+
+int main()
+{
     char figure[100];
     char* test_point = figure;
     char* point = figure;
