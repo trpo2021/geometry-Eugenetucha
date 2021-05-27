@@ -36,6 +36,8 @@ char* proverka_symv(char* point, char symbol)
             return 0;
         }
     }
+    Calculations1(r);
+    Calculations2(r);
 }
 
 char* proverka_znach(char* point, double* number)
@@ -95,4 +97,6 @@ char* proverka_kruga(char* point)
     } else {
         return point;
     }
+    Calculations1(r);
+    Calculations2(r);
 }
