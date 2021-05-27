@@ -24,17 +24,16 @@ int Calculations2(int r)
 }
 char* proverka_symv(char* point, char symbol)
 {
-    
-        if (*point == symbol) {
-            point++;
-            return point;
-        }
-        if (*point == ' ') {
-            point++;
-        } else {
-            printf("Excepted '%c'\n", symbol);
-            return 0;
-        }
+    if (*point == symbol) {
+        point++;
+        return point;
+    }
+    if (*point == ' ') {
+        point++;
+    } else {
+        printf("Excepted '%c'\n", symbol);
+        return 0;
+    }
 }
 
 char* proverka_znach(char* point, double* number)
