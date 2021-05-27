@@ -36,8 +36,7 @@ char* proverka_symv(char* point, char symbol)
             return 0;
         }
     }
-    Calculations1(r);
-    Calculations2(r);
+    return 1;
 }
 
 char* proverka_znach(char* point, double* number)
