@@ -12,14 +12,14 @@ struct circle_elements {
     double r;
 } circle;
 
-int Calculations1(double r)
+char Calculations1(double r)
 {
-    int area = 3.14 * r * r;
+    double area = 3.14 * r * r;
     return area;
 }
-int Calculations2(double r)
+char Calculations2(double r)
 {
-    int perimeter = 2 * 3.14 * r;
+    double perimeter = 2 * 3.14 * r;
     return perimeter;
 }
 char* proverka_symv(char* point, char symbol)
