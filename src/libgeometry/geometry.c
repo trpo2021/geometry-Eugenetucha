@@ -65,6 +65,7 @@ char* proverka_znach(char* point, double* number)
 }
 char* proverka_kruga(char* point)
 {
+    int r = 0;
     if ((point = proverka_symv(point, '(')) == 0) {
         return 0;
     }
