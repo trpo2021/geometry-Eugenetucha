@@ -30,7 +30,7 @@ int main()
         proverka_kruga(point);
     } else {
         printf("Excepted 'circle'\n");
+        Calculations1(r);
+        Calculations2(r);
     }
-    Calculations1(r);
-    Calculations2(r);
 }
