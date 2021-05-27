@@ -12,12 +12,12 @@ struct circle_elements {
     double r;
 } circle;
 
-int Calculations1(double* r)
+int Calculations1(double r)
 {
     int area = 3.14 * r * r;
     return area;
 }
-int Calculations2(double* r)
+int Calculations2(double r)
 {
     int perimeter = 2 * 3.14 * r;
     return perimeter;
