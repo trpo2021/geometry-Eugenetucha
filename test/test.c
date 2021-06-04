@@ -14,7 +14,7 @@ CTEST(calculations1, znach)
 {
     int r = 3;
     int area = -3;
-    int testExp >=1;
+    int testExp >= 1;
     int testResult = Calculations1(r);
     ASSERT_EQUAL(testExp, testResult);
 }
@@ -22,7 +22,7 @@ CTEST(calculations2, znach)
 {
     int r = 3;
     int perimeter = -4;
-    int testExp >=1;
+    int testExp >= 1;
     int testResult = Calculations2(r);
     ASSERT_EQUAL(testExp, testResult);
 }
