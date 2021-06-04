@@ -6,7 +6,7 @@
 CTEST(proverka_kruga, point)
 {
     char point = (1 1, 3);
-    char testExp = 1;
+    char testExp = point;
     char testResult = proverka_kruga(point);
     ASSERT_EQUAL(testExp, testResult);
 }
