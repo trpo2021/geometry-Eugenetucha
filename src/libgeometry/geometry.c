@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+
 struct circle_elements {
     double x;
     double y;
